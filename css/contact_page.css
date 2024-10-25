@@ -80,10 +80,7 @@ nav {
     flex-direction: column;
 }
 
-section p::first-letter {
-    font-size: 4em;
-    font-weight: bold;
-}
+
 
 .heading {
     background-color: #F5F5F5;
