@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Anastasia van Dijk">
+    <title>Kickstart Jobs</title>
+    <link rel="stylesheet" type="text/css" href="css/contact_page.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="img/logo.jpg" title="logo" alt="logo">
+        <p class="color-yellow"> Kickstart Jobs </p>
+        <section class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="grocery_store.html">Grocery store</a>
+            <a href="clothing_store.html">Clothing store</a>
+            <a href="bar.html">Bar</a>
+            <a href="delivery.html">Delivery</a>
+            <a href="contact_page.html">Contact</a>
+        </section>
+    </nav>
+
+    <section class="description">
+        <h1 class="heading"> Let's Help You Get Started with Your Side Job!</h1>
+        <p class="info">
+            Whether you're just exploring options or need help growing your side job, we’d love to hear from you. Fill out the form below and get a feedback about the most suitable side hustle!
+        </p>
+    </section>
+
+    <main class="color-white">
+        <form class="color-white" action="/submit_contact" method="POST">
+            <legend class="form-title color-white">Contact Us</legend>
+            <label class="color-white" for="name">Name:</label>
+            <input class="color-white" type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label class="color-white" for="gender">Gender:</label>
+            <select class="color-white" id="gender" name="gender" required>
+                <option class="color-white" value="" disabled selected>Select your gender</option>
+                <option class="color-white" value="male">Male</option>
+                <option class="color-white" value="female">Female</option>
+                <option class="color-white" value="other">Other</option>
+            </select>
+
+            <label class="color-white" for="phone">Phone Number:</label>
+            <input class="color-white" type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label class="color-white" for="email">Email:</label>
+            <input class="color-white" type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label class="color-white" for="message">Message:</label>
+            <textarea class="color-white" id="message" name="message" placeholder="Write your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p class="policy-text color-yellow">KickstartJobs &copy; 2024. All rights reserved. Privacy policy</p>
+    </footer>
+</body>
+</html>

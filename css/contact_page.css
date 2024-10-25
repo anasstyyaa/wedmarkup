@@ -1,0 +1,270 @@
+body {
+    margin: 0px;
+}
+
+* {
+    background-color: #4B5835;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color:#4B5835;
+}
+tr:nth-child(odd) {
+    background-color:#4B5835;
+}
+
+.color-white {
+    background-color:#F5F5F5;
+}
+
+.color-yellow {
+    background-color: #FFC107;
+    color: #030F28;
+}
+
+nav {
+    display: flex;
+    align-items: center;   
+    justify-content: space-between; 
+    padding: 10px;
+    height:fit-content;
+    background-color: #FFC107;
+}
+
+.navbar a {
+    color: white;
+    background-color: #4B5835;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    margin: 10px;
+}
+
+.nav-links {
+    background-color: #FFC107;
+    display: flex;
+    justify-content: flex-end;
+    min-height: min-content;
+    flex-wrap: wrap;
+}
+
+.navbar a:hover {
+    background-color:#F5F5F5;
+    color:#030F28; 
+}
+
+.navbar img {
+    width: 70px;   
+    height: 70px; 
+    margin-left: 10px;  
+    border-radius: 5px;
+}
+
+.navbar p {
+    color:#030F28;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section p::first-letter {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.heading {
+    background-color: #F5F5F5;
+    width: fit-content;
+    justify-self: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.info {
+    background-color: #F5F5F5;
+    width: fit-content;
+    justify-self: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+main {
+    width: fit-content;
+    margin: 50px auto;
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+legend {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+}
+
+
+
+textarea {
+    width: 98%;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+}
+
+
+button {
+    background-color:#4B5835;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #4B5835;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    padding-right: 10px;
+}
+button:hover {
+    background-color:#FFC107;
+    color: #030F28;
+    border: 1px solid #FFC107;
+}
+
+#gender {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+
+footer {
+    height: 60px;
+    background-color: #FFC107;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.policy-text {
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 768px){
+    *{
+        margin: 0px;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: fit-content;
+        width:100%;
+        padding: 0px;
+        padding-top: 10px;
+    }
+
+    .navbar img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar p {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .navbar a {
+        display: grid;
+        font-size: 10px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin: 10px;
+        height:max-content;
+    }
+
+    .heading {
+        font-size: 15px;
+    }
+    
+    .info {
+        font-size: 12px;
+    }
+
+    
+
+    legend {
+        font-size:15px;
+        text-align: center;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    input{
+        font-size: 12px;
+    }
+
+   
+    #gender {
+        font-size: 12px;
+    }
+    
+    form {
+        width: fit-content;
+    }
+ 
+
+    footer p {
+        font-size: 10px;
+    }
+
+    
+
+}
