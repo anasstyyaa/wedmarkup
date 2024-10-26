@@ -4,7 +4,7 @@ body {
 
 * {
     background-color:#4B5835;
-    font-family: 'Helvetica', Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .color-white {
@@ -50,6 +50,8 @@ nav {
     background-color:#F5F5F5;
     color:#030F28; 
 }
+
+
 
 .navbar img {
     width: 70px;   
@@ -220,6 +222,10 @@ footer {
 .contact-btn:hover {
     background-color:#F5F5F5; 
     color:#030F28; 
+}
+
+.contact-btn:visited {
+    color: #FFC107;
 }
 
 @media screen and (max-width: 768px){

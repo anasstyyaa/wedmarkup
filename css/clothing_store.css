@@ -4,7 +4,7 @@ body {
 
 * {
     background-color:#4B5835;
-    font-family: 'Helvetica', Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .color-white {
@@ -48,10 +48,7 @@ nav {
     flex-wrap: wrap;
 }
 
-.navbar a:hover {
-    background-color:#F5F5F5;
-    color:#030F28; 
-}
+
 
 .navbar img {
     width: 70px;   

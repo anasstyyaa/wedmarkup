@@ -5,6 +5,7 @@
     <meta name="author" content="Anastasia van Dijk">
     <title>Kickstart Jobs</title>
     <link rel="stylesheet" type="text/css" href="css/contact_page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -23,13 +24,13 @@
     <section class="description">
         <h1 class="heading"> Let's Help You Get Started with Your Side Job!</h1>
         <p class="info">
-            Whether you're just exploring options or need help growing your side job, we’d love to hear from you. Fill out the form below and get a feedback about the most suitable side hustle!
+            Whether you're just exploring options or need help growing your side job, we'd love to hear from you. Fill out the form below and get a feedback about the most suitable side hustle!
         </p>
     </section>
 
-    <main class="color-white">
+    <fieldset class="color-white">
+        <legend class="form-title color-white">Contact Us</legend>
         <form class="color-white" action="/submit_contact" method="POST">
-            <legend class="form-title color-white">Contact Us</legend>
             <label class="color-white" for="name">Name:</label>
             <input class="color-white" type="text" id="name" name="name" placeholder="Enter your name" required>
 
@@ -45,14 +46,14 @@
             <input class="color-white" type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
 
             <label class="color-white" for="email">Email:</label>
-            <input class="color-white" type="email" id="email" name="email" placeholder="Enter your email" required>
+            <input class="color-white" type="email" value="email" id="email" name="email" placeholder="Enter your email" required>
 
             <label class="color-white" for="message">Message:</label>
             <textarea class="color-white" id="message" name="message" placeholder="Write your message" required></textarea>
 
-            <button type="submit">Send Message</button>
+            <input id="submit-button" type="submit" value="Submit">
         </form>
-    </main>
+    </fieldset>
 
     <footer>
         <p class="policy-text color-yellow">KickstartJobs &copy; 2024. All rights reserved. Privacy policy</p>

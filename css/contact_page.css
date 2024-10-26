@@ -4,15 +4,13 @@ body {
 
 * {
     background-color: #4B5835;
-    font-family: 'Helvetica', Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
-tr:nth-child(even) {
+tr:nth-child(even), tr:nth-child(odd)  {
     background-color:#4B5835;
 }
-tr:nth-child(odd) {
-    background-color:#4B5835;
-}
+
 
 .color-white {
     background-color:#F5F5F5;
@@ -53,10 +51,8 @@ nav {
     flex-wrap: wrap;
 }
 
-.navbar a:hover {
-    background-color:#F5F5F5;
-    color:#030F28; 
-}
+
+
 
 .navbar img {
     width: 70px;   
@@ -100,7 +96,7 @@ nav {
     margin: 10px;
 }
 
-main {
+fieldset {
     width: fit-content;
     margin: 50px auto;
     background-color: #F5F5F5;
@@ -113,6 +109,10 @@ legend {
     padding-bottom: 20px;
     font-size: 30px;
     font-weight: bold;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 label {
@@ -123,7 +123,7 @@ label {
 
 
 
-input {
+#name , #phone, #email {
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid hsl(0, 0%, 80%);
@@ -139,10 +139,11 @@ textarea {
     border-radius: 10px;
     margin-bottom: 20px;
     padding-right: 0px;
+    resize: none;
 }
 
 
-button {
+#submit-button {
     background-color:#4B5835;
     color: white;
     padding: 10px 20px;
